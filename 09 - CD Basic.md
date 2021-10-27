@@ -10,8 +10,8 @@ b = c;
 int result = a[0]+b1-c[2];
 ```
 
-Initially, `a` holds 4 items and `b` holds 3 items.
-After the re-referencing, `a` holds 3 items and `b` holds 4 items.
+Initially, `a` refers to instance that holds 4 items (10,70,20,90) and `b` refers to instance holds 3 items (50,30,80).
+After the re-referencing, `a` refers to instance that holds 3 items (50,30,80) and `b` refers to instance that holds 4 items (10,70,20,90).
 
 `a[0] = 50`
 `b[1] = 70`
