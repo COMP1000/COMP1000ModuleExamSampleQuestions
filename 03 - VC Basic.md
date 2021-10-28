@@ -31,7 +31,7 @@ void draw() {
 
     if (mousePressed) {
         fill(0);
-        ellipse(width/2, height/2, 50, 50);
+        circle(width/2, height/2, 50);
     }
 }
 ```
@@ -43,3 +43,23 @@ Write a processing program that draws a circle with radius `50`, with the circle
 ### Question 4
 
 Given an integer variable named *`num`*, write a program to print `Number is even` if the value in *`num`* is even and 'Number is odd' if the value in *`num`* is odd.
+
+### Question 5
+
+Write a statement that stores, in variable `d`,  the last digit of an existing variable `n`. Assume `n > 0`.
+
+### Question 6
+
+Assuming existence of integer `a`, write a piece of code that stores, in variable `flag`,
+
+- 1, if `a` is even.
+- -1, if `a` is odd.
+
+### Question 7
+
+Assuming existence of two integers `a` and `b`, write a piece of code that stores, in variable `flag`,
+
+- 1, if both `a` and `b` are even.
+- -1, if both `a` and `b` are odd.
+- 0, if one of `a` and `b` is even and the other one odd.
+
