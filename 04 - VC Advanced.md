@@ -1,9 +1,7 @@
 <h1 align="center"> ✨ VC Advanced ✨ </h1>
 
 
-### Question 1
-
-Describe what the user sees during the execution of the following program. 
+## Describe what the user sees during the execution of the following program. 
 
 > *Please describe execution in as much detail as you can, avoiding the use of technical terminology (e.g state "a large white circle in the top right of the screen" as opposed to "a white ellipse of radius 500 centred at co-ordinates (300, 50)).*
 
