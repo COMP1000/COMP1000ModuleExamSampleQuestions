@@ -1,8 +1,6 @@
 <h1 align="center"> ✨ L Advanced ✨ </h1>
 
-### Question 1
-
-Given a positive integer `n`, use a loop to store the sum of the reciprocals of the squares of the first `n` natural numbers in a float variable called `sum`:
+## Given a positive integer `n`, use a loop to store the sum of the reciprocals of the squares of the first `n` natural numbers in a float variable called `sum`:
 
 <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{1^2} %2b \frac{1}{2^2} %2b \frac{1}{3^2} %2b ... %2b \frac{1}{n^2}">
 
@@ -12,9 +10,7 @@ Let's say the value of `n` is 4, then the sum would be:
 
 > This series is part of the [Basel Problem](https://en.wikipedia.org/wiki/Basel_problem). The infinite sum gives us <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi ^ 2}{6}">.
 
-### Question 2
-
-How many times is `statement` executed when the following code is run?
+## How many times is `statement` executed when the following code is run?
 
 ```processing
 for (int i = 0; i < 5; i++) {
@@ -23,3 +19,13 @@ for (int i = 0; i < 5; i++) {
     }
 }
 ```
+
+## Attempt to recreate the following image using a nested loop:
+
+![overlappingCircles](assets/L\ Advanced/overlappingCircles.png)
+
+> In the image above screen size of 400 by 400 pixels has been used. Additionally, the circles are offset by its radius.
+
+## Attempt to recreate the following image using a nested loop:
+
+![rings](assets/L\ Advanced/rings.png)

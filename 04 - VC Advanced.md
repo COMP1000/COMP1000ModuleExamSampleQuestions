@@ -27,3 +27,26 @@ void draw() {
 }
 ```
 
+## Describe what the user sees during the execution of the following program. 
+
+> *Please describe execution in as much detail as you can, avoiding the use of technical terminology (e.g state "a large white circle in the top right of the screen" as opposed to "a white ellipse of radius 500 centred at co-ordinates (300, 50)).*
+
+```processing
+float y;
+
+void setup() {
+  size(400, 400); 
+  y = height/2;
+}
+
+void draw() { 
+  background(0);
+  stroke(255);  
+  strokeWeight(5);
+  line(0, y, width, y);  
+  y = y - 1; 
+  if (y < 0) { 
+    y = height; 
+  } 
+}
+```
