@@ -31,14 +31,14 @@ int[] taxi = {10, 70, 20, 90};
 2. that holds 5000 salaries (think about the data type).
 3. that holds, for a [binary image](https://en.wikipedia.org/wiki/Binary_image), values of 240000 pixels (think about the data type).
 4. that holds the values 10, 70, 20, 90, 30, 80, 40, 70.
-4. that holds the values 10, 70, 20, 90, 30, 80.1, 40, 70.
+4. that holds the values 10, 70, 20, 90, 30, 80.6, 40, 70.
 
 ## For an arbitrary array `cab` that contains 0 or more integer values (but is definitely not `null`), write a piece of code that,
 
-1. displays each item of the array, on a different line
+1. displays items of the array, each on a different line
 2. stores the sum of all items in a variable `total`
-3. stores the number of positive items in a variable `total`
-4. stores the sum of all odd items in a variable `total` 
+3. stores the number of positive items in a variable `countPositives`
+4. stores the sum of all odd items in a variable `sumOdds` 
 
 ## What is the value of result after the following code is executed:
 
