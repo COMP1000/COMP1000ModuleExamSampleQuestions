@@ -1,6 +1,6 @@
 <h1 align="center"> ✨ CD Basic ✨ </h1>
 
-## Consider the following array creation statement and answer the question that follow.
+## Consider the following array creation statement and answer the questions that follow.
 
 ```java
 int[] taxi = {10, 70, 20, 90};
@@ -60,9 +60,7 @@ After the re-referencing, `a` refers to instance that holds 3 items `(50,30,80)`
 
 `result = 50 - 70 + 90 = 70`
 
-### Question 1
-
-Write a loop to calculate the sum of any given one-dimensional array named `arr`.
+## Write a loop to calculate the sum of any given one-dimensional array named `arr`.
 
 *For example, for the following arr, the sum will be `135`:*
 
@@ -70,13 +68,10 @@ Write a loop to calculate the sum of any given one-dimensional array named `arr`
 int arr[] = {10, 30, 50, 45};
 ```
 
-### Question 2
-
-Given the following processing code:
+## What is the value of `foo[3] + bar[2] * bar[1]`?
 
 ```java
 int[] foo = {20, 2, 5, 1, 10, 3, 9};
 int[] bar = {0, 9, 32, 59, 2, 5, 8};
 ```
 
-What is the value of `foo[3] + bar[2] * bar[1]`?
