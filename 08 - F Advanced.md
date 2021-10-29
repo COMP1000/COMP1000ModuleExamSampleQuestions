@@ -33,7 +33,45 @@ void setup() {
   println(tip(3));
 }
 ```
-  
-  
-  
-  
+ 
+## What is the number is printed on execution of the following code?
+
+```processing
+int foo(int n) {
+  if (n < 1) {
+    return 0;
+  } else if (n == 1) {
+    return 1;
+  }
+  return n + foo(n - 1);
+}
+
+void setup() {
+  print(foo(7));
+  print(foo(-2));
+}
+```
+
+## Define a function called `indexInArray` 
+that when passed in a one-dimensional integer array called `arr` and an integer `num` returns the index of the **first occurence** of `num` in `arr`.
+If the integer `num` does not exist in `arr`, return `-1`.
+
+Some examples:
+
+- `indexInArray({1, 5, 3, 10}, 10)` returns `3` 
+- `indexInArray({8, 2, 5, 19, 3, 3, 4}, 3)` returns `4` 
+
+## Define a function called `isIdentityMatrix`
+that when passed in a two-dimensional float array (*you can assume the array's dimensions are `n` by `n`*) called `matrix` returns:
+- `true` if it is an Identity matrix
+- `false` otherwise
+
+> *An [Identity matrix](https://en.wikipedia.org/wiki/Identity_matrix) is a matrix with equal rows and colomns and  contains ones in the diagonals and zeroes everywhere else.*
+> The one shown below is a 3 by 3 Identity Matrix:
+
+> ![3 by 3 Identity Matrix](https://upload.wikimedia.org/wikipedia/commons/3/3d/Math_identify_matrix_3x3.png)
+
+Some examples:
+
+- `isIdentityMatrix({{1, 0}, {0, 1}})` returns `true`
+- `isIdentityMatrix({{1, 0, 0}, {0, 1, 0}, {0, 1, 1}})` returns `false`
