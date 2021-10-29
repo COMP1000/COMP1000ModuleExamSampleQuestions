@@ -22,10 +22,10 @@ for (int i = 0; i < 5; i++) {
 
 ## Attempt to recreate the following image using a nested loop:
 
-![overlappingCircles](assets/L\ Advanced/overlappingCircles.png)
+<img src="./assets/L Advanced/overlappingCircles.png" alt="overlappingCircles.png" />
 
 > In the image above screen size of 400 by 400 pixels has been used. Additionally, the circles are offset by its radius.
 
 ## Attempt to recreate the following image using a nested loop:
 
-![rings](assets/L\ Advanced/rings.png)
+<img src="./assets/L Advanced/rings.png" alt="rings.png" />
