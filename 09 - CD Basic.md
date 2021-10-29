@@ -1,4 +1,44 @@
-<h1 align="center"> ✨ VC Basic ✨ </h1>
+<h1 align="center"> ✨ CD Basic ✨ </h1>
+
+## Consider the following array creation statement and answer the question that follow.
+
+```java
+int[] taxi = {10, 70, 20, 90};
+```
+
+1. Draw the memory diagram that represents the reference and the instance. Clearly label each as *reference* and *instance*.
+2. What is the value of `taxi.length`?
+3. What is the index of the last item?
+4. What do you get when you display `taxi[3]`?
+5. What do you get when you display `taxi[0]`?
+6. What do you get when you display `taxi[-1]`? 
+7. What do you get when you display `taxi[4]`?
+
+## For an arbitrary array `cab` that contains 1 or more items,
+
+1. What is the index of the last item?
+2. What is the variable that gives you the value of the last item (for example, `cab[0]` gives you the first item)?
+3. Write a statement that doubles the last item. For example, if the last item is 10, it should become 20.
+
+## For an arbitrary array `cab` that contains 0 or more items (but is definitely not `null`),
+
+1. Write a statement that displays the last item, **if any** (do nothing if array is empty).
+2. Write a statement that doubles the last item, **if any** (do nothing if array is empty).
+
+## Create an array,
+
+1. that holds 200 integer values.
+2. that holds 5000 salaries (think about the data type).
+3. that holds, for a [binary image](https://en.wikipedia.org/wiki/Binary_image), values of 240000 pixels (think about the data type).
+4. that holds the values 10, 70, 20, 90, 30, 80, 40, 70.
+4. that holds the values 10, 70, 20, 90, 30, 80.1, 40, 70.
+
+## For an arbitrary array `cab` that contains 0 or more integer values (but is definitely not `null`), write a piece of code that,
+
+1. displays each item of the array, on a different line
+2. stores the sum of all items in a variable `total`
+3. stores the number of positive items in a variable `total`
+4. stores the sum of all odd items in a variable `total` 
 
 ## What is the value of result after the following code is executed:
 
