@@ -1,8 +1,22 @@
-<h1 align="center"> ✨ VC Advanced ✨ </h1>
+<h1 align="center"> ✨ CD Advanced ✨ </h1>
 
-### Question 1
+## Consider the following array and answer the questions that follow,
 
-Describe what the user sees during the execution of the following program. 
+```java
+int[][] mega = {{10,70,20,90}, {30,80}, {10}, {50, 70, 20}};
+```
+
+1. Draw the memory diagram for the array `mega`. Clearly label all references and instances. HINT: you will have one `int[][] reference`, four `int[] reference`, one `int[][] instance` and four `int[] instance`. 
+2. Write a piece of code that stores the sum of all items of `mega` in a variable `total`. 
+3. Write a piece of code that displays the items from last to first sub-array, and within each sub-array, last to first item.
+4. Write a piece of code that displays the items from last to first sub-array, and within each sub-array, first to last item.
+5. Write a piece of code that displays the items from first to last sub-array, and within each sub-array, last to first item.
+
+## Parallel arrays
+
+Assume that the arrays `posX` and `posY` store co-ordinates of multiples circles. Each array contains the same number of items (and that number is greater than 0). `posX[i], posY[i]` represents the position of the (i+1)<sup>th</sup> circle. Write a piece of code that shifts each circle up and right by 1 pixel each.
+
+## Describe what the user sees during the execution of the following program. 
 
 > *Please describe execution in as much detail as you can, avoiding the use of technical terminology (e.g state "a large white circle in the top right of the screen" as opposed to "a white ellipse of radius 500 centred at co-ordinates (300, 50)).*
 
