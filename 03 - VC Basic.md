@@ -1,8 +1,6 @@
 <h1 align="center"> ✨ VC Basic ✨ </h1>
 
-### Question 1
-
-What are the values of the variables *`a`* and *`b`* after the following code has been executed?
+## What are the values of the variables *`a`* and *`b`* after the following code has been executed?
 
 > *Draw a memory diagram to keep track of the values that each variable contains*
 
@@ -15,9 +13,7 @@ b = a - b;
 a = a - b;
 ```
 
-### Question 2
-
-Describe what the user sees during the execution of the following program. 
+## Describe what the user sees during the execution of the following program. 
 
 > *Please describe execution in as much detail as you can, avoiding the use of technical terminology (e.g state "a large white circle in the top right of the screen" as opposed to "a white ellipse of radius 500 centred at co-ordinates (300, 50)).*
 
@@ -36,28 +32,21 @@ void draw() {
 }
 ```
 
-### Question 3
+### Write a processing program that:
+draws a circle with radius `50`, with the circle's center at the current position of the mouse. The screen should have the dimensions `200 x 200`.
 
-Write a processing program that draws a circle with radius `50`, with the circle's center at the current position of the mouse. The screen should have the dimensions `200 x 200`.
+## Given an integer variable named *`num`*, write a program to print the string:
+- `Number is even` if the value in *`num`* is even
+- `Number is odd` if the value in *`num`* is odd.
 
-### Question 4
+## Write a statement that stores, in variable `d`,  the last digit of an existing variable `n`. Assume `n > 0`.
 
-Given an integer variable named *`num`*, write a program to print `Number is even` if the value in *`num`* is even and 'Number is odd' if the value in *`num`* is odd.
-
-### Question 5
-
-Write a statement that stores, in variable `d`,  the last digit of an existing variable `n`. Assume `n > 0`.
-
-### Question 6
-
-Assuming existence of integer `a`, write a piece of code that stores, in variable `flag`,
+## Assuming existence of integer `a`, write a piece of code that stores, in variable `flag`,
 
 - 1, if `a` is even.
 - -1, if `a` is odd.
 
-### Question 7
-
-Assuming existence of two integers `a` and `b`, write a piece of code that stores, in variable `flag`,
+## Assuming existence of two integers `a` and `b`, write a piece of code that stores, in variable `flag`,
 
 - 1, if both `a` and `b` are even.
 - -1, if both `a` and `b` are odd.
