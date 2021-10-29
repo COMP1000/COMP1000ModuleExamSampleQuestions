@@ -13,47 +13,36 @@ b = a - b;
 a = a - b;
 ```
 
-## What is the type, and the value of the expression `17/5`?
+## What are the types, and values of the following expressions:
 
-## What is the type, and the value of the expression `17.0/5`?
+1. `17/5`
+2. `17.0/5`
+3. `17/5.0`
+4. `17.0/5.0`
+5. `17%2 == 1`
+6. `-17%2 == 1`
+7. `1729/10`
+8. `172/10`
+9. `17/10`
+10. `1/10`
+11. `1729%10`
+12. `172%10`
+13. `17%10`
+14. `1%10`
+15. `5 > 3`
+16. `5 > 3 == true`
 
-## What is the type, and the value of the expression `17/5.0`?
+## From the last two expressions, what can you say about expressions:
 
-## What is the type, and the value of the expression `17.0/5.0`?
+1. `5 > 3`, and, 
+2. `5 > 3 == true`
 
-## What is the type, and the value of the expression `17%2 == 1`?
+## Is each of the following statement valid, and if so, what is the value `result`?
 
-## What is the type, and the value of the expression `-17%2 == 1`?
-
-## What is the type, and the value of the expression `1729/10`?
-
-## What is the type, and the value of the expression `172/10`?
-
-## What is the type, and the value of the expression `17/10`?
-
-## What is the type, and the value of the expression `1/10`?
-
-## What is the type, and the value of the expression `1729%10`?
-
-## What is the type, and the value of the expression `172%10`?
-
-## What is the type, and the value of the expression `17%10`?
-
-## What is the type, and the value of the expression `1%10`?
-
-## What is the type, and the value of the expression `5 > 3`?
-
-## What is the type, and the value of the expression `5 > 3 == true`?
-
-## From the above two expressions, what can you say about expressions `5 > 3` and `5 > 3 == true`?
-
-## Is the statement `int result = 17/5` valid, and if so, what is the value `result`?
-
-## Is the statement `int result = 17/5.0` valid, and if so, what is the value `result`?
-
-## Is the statement `float result = 17/5` valid, and if so, what is the value `result`?
-
-## Is the statement `float result = 17/5.0` valid, and if so, what is the value `result`?
+1. `int result = 17/5`
+2. `int result = 17/5.0`
+3. `float result = 17/5`
+4. `float result = 17/5.0`
 
 ## Describe what the user sees during the execution of the following program. 
 
@@ -105,7 +94,7 @@ else {
 }
 ```
 
-You can compare your solution with the flowchart at [code2flow](https://app.code2flow.com/RkAZuU8TpMdN.png).
+You can compare your solution with [our solution at code2flow](https://app.code2flow.com/RkAZuU8TpMdN.png).
 
 ## Given an integer variable named *`num`*, write a program to print:
 - "Number is even" if the value in *`num`* is even
