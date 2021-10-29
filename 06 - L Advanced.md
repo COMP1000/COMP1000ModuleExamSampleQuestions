@@ -20,12 +20,37 @@ for (int i = 0; i < 5; i++) {
 }
 ```
 
-## Attempt to recreate the following image using a nested loop:
+## Recreate the following pattern using nested loops:
+
+Note: the pattern provided is for n = 5. Your code should work for values of n between 1 and, say, 0.
+
+```
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+```
+
+## Recreate the following pattern using nested loops:
+
+Note: the pattern provided is for n = 4 (hence, 4 lines). Your code should work for values of n between 1 and, say, 20.
+
+```
+      1
+    1 2 3
+  1 2 3 4 5 
+1 2 3 4 5 6 7
+```
+
+## Recreate the following image using a nested loop:
 
 <img src="./assets/L Advanced/overlappingCircles.png" alt="overlappingCircles.png" />
 
 > In the image above screen size of 400 by 400 pixels has been used. Additionally, the circles are offset by its radius.
 
-## Attempt to recreate the following image using a nested loop:
+## Recreate the following image using a nested loop:
+
+HINT: The circles are along the circumference of a bigger circle, just at different angles.
 
 <img src="./assets/L Advanced/rings.png" alt="rings.png" />
