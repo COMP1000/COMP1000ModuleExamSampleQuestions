@@ -35,4 +35,4 @@ Given a positive integer `n`, use a loop to calculate the factorial of `n`.
 
 For example, when `n = 5`:
 
-> $5! = 5 \times 4 \times 3 \times 2 \times 1$
+> <img src="https://render.githubusercontent.com/render/math?math=5! = 5 \times 4 \times 3 \times 2 \times 1">
