@@ -62,7 +62,7 @@ Some examples:
 - `indexInArray({8, 2, 5, 19, 3, 3, 4}, 3)` returns `4` 
 
 ## Define a function called `isIdentityMatrix`
-that when passed in a two-dimensional float array (*you can assume the array's dimensions are `n` by `n`*) called `matrix` returns:
+that when passed in a two-dimensional float array called `arr` returns:
 - `true` if it is an Identity matrix
 - `false` otherwise
 
@@ -74,4 +74,7 @@ that when passed in a two-dimensional float array (*you can assume the array's d
 Some examples:
 
 - `isIdentityMatrix({{1, 0}, {0, 1}})` returns `true`
+- `isIdentityMatrix({{1, 0}, {1}})` returns `false`
+- `isIdentityMatrix({{1, 0, 0}, {0, 1, 0}, {0, 0, 1}})` returns `true`
 - `isIdentityMatrix({{1, 0, 0}, {0, 1, 0}, {0, 1, 1}})` returns `false`
+- `isIdentityMatrix({{1, 0, 0}, {0, 1, 0}})` returns `false`
