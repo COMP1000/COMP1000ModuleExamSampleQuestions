@@ -94,7 +94,7 @@ else {
 }
 ```
 
-You can compare your solution with [our solution at code2flow](https://app.code2flow.com/RkAZuU8TpMdN.png).
+You can compare your solution with [our solution at code2flow](https://app.code2flow.com/MZneHy.code.svg).
 
 ## Given an integer variable named *`num`*, write a program to print:
 - "Number is even" if the value in *`num`* is even
