@@ -1,3 +1,5 @@
+<h1 align="center"> ✨ FP Basic ✨ </h1>
+
 ## For the following function, determine if it is a:
 
 ```processing
@@ -28,7 +30,3 @@ int double(int x) {
 5. `b`
 6. `"Hello World"`
 
-## Write a Processing program that will draw the following diagram in a window of the appropriate size that has a white background.  
-> The light grey lines and text are not part of the diagram, they indicate pixel boundaries.
-
-<img src="./assets/FP Basic/emojiSketch.png" alt="emojiSketch.png" />
