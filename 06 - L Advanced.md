@@ -49,7 +49,7 @@ Note: the pattern provided is for n = 4 (hence, 4 lines). Your code should work 
 
 > In the image above screen size of 400 by 400 pixels has been used. Additionally, the circles are offset by its radius.
 
-## Recreate the following image using a nested loop:
+## Recreate the following image using a loop:
 
 HINT: The circles are along the circumference of a bigger circle, just at different angles.
 
