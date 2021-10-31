@@ -43,14 +43,28 @@ Note: the pattern provided is for n = 4 (hence, 4 lines). Your code should work 
 1 2 3 4 5 6 7
 ```
 
-## Recreate the following image using a nested loop:
+## Use a nested loop to create the following image:
 
-<img src="./assets/L Advanced/overlappingCircles.png" alt="overlappingCircles.png" />
-
-> In the image above screen size of 400 by 400 pixels has been used. Additionally, the circles are offset by its radius.
+<img src="./assets/L Advanced/rowsOfCircles.png" alt="rowsOfCircles.png" />
 
 ## Recreate the following image using a loop:
 
 HINT: The circles are along the circumference of a bigger circle, just at different angles.
 
 <img src="./assets/L Advanced/rings.png" alt="rings.png" />
+
+## Recreate the following image using a nested loop:
+
+<img src="./assets/L Advanced/overlappingCircles.png" alt="overlappingCircles.png" />
+
+> In the image above screen size of 400 by 400 pixels has been used. Additionally, the circles are offset by its radius.
+
+## How many times is `statement` executed when the following code is run?
+
+```processing
+for (int i = 15; i > 0; i-=5) {
+    for (int k = 1; k < i; k += 3) {
+        statement
+    }
+}
+```
