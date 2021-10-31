@@ -78,3 +78,68 @@ Some examples:
 - `isIdentityMatrix({{1, 0, 0}, {0, 1, 0}, {0, 0, 1}})` returns `true`
 - `isIdentityMatrix({{1, 0, 0}, {0, 1, 0}, {0, 1, 1}})` returns `false`
 - `isIdentityMatrix({{1, 0, 0}, {0, 1, 0}})` returns `false`
+
+## What is the console output of the following code?
+
+> Include your working for partial marks
+
+```processing
+void setup() {
+    println(foo(4));
+}
+
+int foo(int n) {
+    if (n < 1) {
+        return 1;
+    }
+
+    return n * foo(n - 1);
+
+}
+```
+
+## Describe what the user sees during the execution of the following program. 
+
+> *Please describe execution in as much detail as you can, avoiding the use of technical terminology (e.g state "a large white circle in the top right of the screen" as opposed to "a white ellipse of radius 500 centred at co-ordinates (300, 50)).*
+
+
+```processing
+float dia = 10;
+float maxBrightness = 200;
+
+void setup() {
+  size(250, 250);
+}
+
+void draw() {
+  drawCircleGrid();
+}
+
+void drawCircleGrid() {
+  for (float i = dia/2; i < width; i += dia) {
+    for (float k = dia/2; k < width; k += dia) {
+      fill(getBrightness(mouseX, mouseY, i, k));
+      circle(i, k, dia);
+    }
+  }
+}
+
+float getBrightness(float mouseXPos, float mouseYPos, float x, float y) {
+  return maxBrightness - dist(mouseXPos, mouseYPos, x, y);
+}
+```
+
+## Consider the program below and state what will be printed onto the console
+
+```processing
+String text = "outside";
+
+void setup() {
+  say("hi");
+}
+
+void say(String text) {
+  text = "inside";
+  println(text);
+}
+```
