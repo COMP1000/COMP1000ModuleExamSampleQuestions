@@ -1,4 +1,7 @@
-# COMP1000PracticeQuestions
+<h1 align="center"> ✨ COMP1000 Practice Questions ✨</h1>
+
+https://user-images.githubusercontent.com/66213858/139582656-6c44baa6-2049-4310-a169-e90747c80db1.mp4
+
 
 Let's try to collaboratively compile some practice questions that can,
 
