@@ -2,9 +2,11 @@
 
 ### Question 1
 
-Define a function called `lowest`, that when passed two values of type `int`, returns the minimum of the three numbers.
-
-> Do not use the built-in `min` function!
+1. Define a function named `square`, that when passed a floating-point value, returns its square.
+2. Define a function named `isOdd`, that when passed an integer value, returns `true` if it's odd, false otherwise.
+3. Define a function named `countTrueV1`, that when passed two boolean value, returns the number of values that are `true`.
+4. Define a function named `countTrueV2`, that when passed three boolean value, returns the number of values that are `true`.
+5. Define a function named `lowest`, that when passed two values of type `int`, returns the minimum of the three numbers. Do not use the built-in `min` function!
 
 ### Question 2
 
