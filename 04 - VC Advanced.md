@@ -1,5 +1,6 @@
 <h1 align="center"> ✨ VC Advanced ✨ </h1>
 
+## Assuming `a` and `b` are integers and `b != 0`, what are the possible values of `a%b`?
 
 ## Describe what the user sees during the execution of the following program. 
 
