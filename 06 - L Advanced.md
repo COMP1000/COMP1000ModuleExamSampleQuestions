@@ -79,7 +79,8 @@ for (int x = 20; x < width; x = x + 40)
 		circle(x, y, 10);
 		circle(x, y - height, 10);
 	}
-}```
+}
+```
 
 The program is meant to produce the following image:
 
