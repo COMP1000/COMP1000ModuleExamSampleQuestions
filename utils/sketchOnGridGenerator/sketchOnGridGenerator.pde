@@ -12,7 +12,7 @@ String imageFormat = "png";
 boolean saveImage = false;
 
 final int GRID_WIDTH = 200;
-final int GRID_HEIGHT = 250;
+final int GRID_HEIGHT = 200;
 final int N_ROWS = 10;
 final int N_COLUMNS = 10;
 final float PIXEL_HEIGHT =(float)GRID_HEIGHT/N_ROWS;

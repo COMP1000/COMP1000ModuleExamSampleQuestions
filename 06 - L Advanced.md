@@ -68,3 +68,25 @@ for (int i = 15; i > 0; i-=5) {
     }
 }
 ```
+
+## There is an error in the following code. Identify and correct the error.
+
+```processing
+for (int x = 20; x < width; x = x + 40)
+{
+	for (int y = 20; y <= x; y = y + 40)
+	{
+		circle(x, y, 10);
+		circle(x, y - height, 10);
+	}
+}```
+
+The program is meant to produce the following image:
+
+<img src="./assets/L Advanced/correctCircles.png" alt="correctCircles.png" />
+
+however, it is instead producing the following instead.
+
+<img src="./assets/L Advanced/incorrectCircles.png" alt="incorrectCircles.png" />
+
+Find & correct for the error.

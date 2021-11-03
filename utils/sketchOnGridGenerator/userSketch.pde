@@ -14,4 +14,13 @@ void userSketch() {
        circle(100, 100, 50);
        draws a circle at (100, 100) on the actual image/window
    */
+   
+   for (int x = 20; x < GRID_WIDTH; x = x + 40)
+   {
+     for (int y = 20; y <= x; y = y + 40)
+     {
+       circle(convertX(x), convertY(y), 10);
+       circle(convertX(x), convertY(GRID_HEIGHT - y), 10);
+     }
+   }
 }
