@@ -84,10 +84,10 @@ for (int x = 20; x < width; x = x + 40)
 
 The program is meant to produce the following image:
 
-<img src="./assets/L Advanced/correctCircles.png" alt="correctCircles.png" />
+<img src="./assets/L Advanced/correctCircles.PNG" alt="correctCircles.PNG" />
 
 however, it is instead producing the following instead.
 
-<img src="./assets/L Advanced/incorrectCircles.png" alt="incorrectCircles.png" />
+<img src="./assets/L Advanced/incorrectCircles.PNG" alt="incorrectCircles.PNG" />
 
 Find & correct for the error.
