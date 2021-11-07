@@ -31,6 +31,24 @@ void draw()
 3. What aspect of the program makes it *scalable*?
 4. (HD) There is a very subtle bug in the program. Identify and fix it.
 
-## Question 2. TODO
+## Question 2
 
-## Question 3. TODO
+Explain what magic numbers are and how we may refactor our code to remove them.
+Furthermore, what advantages does removing magic numbers have?
+
+## Question 3
+
+Refactor the following code to use a loop.
+
+```processing
+println("#");
+println("##");
+println("###");
+println("####");
+```
+
+Why is using a loop better than manually printing each row of the pyramid?
+
+## Question 4
+
+Why is top-down design called a *divide and conquer* strategy?
