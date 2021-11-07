@@ -45,7 +45,15 @@
 3. Changer
 4. Producer
 
-## Of the types below, which is the right type for the value `"false"`?
+## Of the types below, which is the right type for the value `'t'`?
+
+- `int`
+- `char`
+- `String`
+- `float`
+- `boolean`
+
+## Of the types below, which is the right type for the value `false`?
 
 - `int`
 - `char`
