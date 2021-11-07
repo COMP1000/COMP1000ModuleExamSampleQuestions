@@ -31,6 +31,41 @@ void draw()
 3. What aspect of the program makes it *scalable*?
 4. (HD) There is a very subtle bug in the program. Identify and fix it.
 
+<!--
+```java
+final int N = 4;
+boolean flag = true; //start white cell at offset 0 or 1
+float x = 0;
+float y = 0;
+float cellWidth, cellHeight;
+
+void setup() {
+  size(423, 371);
+  cellWidth = width*1.0/N;
+  cellHeight = height*1.0/N;
+  background(0);
+}
+
+void draw() {
+  drawGrid();
+}
+
+void drawGrid() {
+  rect(x, y, cellWidth, cellHeight);
+  x+=2*cellWidth;
+  if (x >= width) { //overflow
+    y+=cellHeight;//next row
+    if (flag) { //start at offset 1
+      x = cellWidth;
+    } else { //or offset 0
+      x = 0;
+    }
+    flag = !flag; //flip for next time
+  }
+}
+```
+-->
+
 ## Question 2
 
 Explain what magic numbers are and how we may refactor our code to remove them.
