@@ -30,3 +30,4 @@ int double(int x) {
 5. `b`
 6. `"Hello World"`
 
+## A student has posted a large part of their assignment questions on a "Homework Help" forum, and has received a few completed works in return. Is it OK for you to do the same, and use the answers in your assignment?

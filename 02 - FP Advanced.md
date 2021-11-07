@@ -60,3 +60,18 @@
 - `String`
 - `float`
 - `boolean`
+
+## Which lines of code in the following code are *statements*?
+
+```processing
+void setup()
+{
+	size(400, 200);
+}
+
+void draw()
+{
+	//This should draw a line from the top left to the bottom right
+	line(0, 0, width, height);
+}
+```

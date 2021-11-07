@@ -72,3 +72,16 @@ for (int i = 0; i < 200; i+=40) {
     circle(width/2, height/2, i);
 }
 ```
+
+## What would be the output of the following code?
+
+```processing
+for (int n = 0; n < 10; n += 1)
+{
+	if (n % 2 == 0)
+	{
+		print(n * n);
+	}
+	println(n + 3);
+}
+```

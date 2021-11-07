@@ -113,3 +113,31 @@ You can compare your solution with [our solution at code2flow](https://app.code2
 - -1, if both `a` and `b` are odd.
 - 0, if one of `a` and `b` is even and the other one odd.
 
+## What is the value stored in `result` after the following code has been executed?
+
+```processing
+int result = 7;
+
+if (result >= 10)
+{
+	if (result % 2 == 1)
+	{
+		result = 0;
+	}
+	else
+	{
+		result = 1;
+	}
+}
+else
+{
+	if (result % 2 == 1)
+	{
+		result = 3;
+	}
+	else
+	{
+		result = 2;
+	}
+}
+```
