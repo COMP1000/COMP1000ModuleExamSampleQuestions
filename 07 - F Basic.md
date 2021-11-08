@@ -43,3 +43,16 @@ Determine if the following function calls are valid. Explain why or why not.
 + `baz(20.0/5);`
 + `baz(100/5);`
 + `baz(baz(5));`
+
+### Question 6
+
+Given the following fragment of code:
+
+```processing
+foo(3, 'H', true);
+
+int a = foo(4, 'b', false);
+int b = foo(a, 'C', false);
+```
+
+Write a function signature for the function `foo`.
