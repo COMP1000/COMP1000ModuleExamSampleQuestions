@@ -15,11 +15,15 @@ int double(int x) {
 - Producer
 - Informed producer
 
-## What are the outcomes of the following expresssions?
+## What are the types and outcomes of the following expresssions?
  
 - `2 * (15 - 6)/6 + 4 - 1`
 - `-20 % 6 - 4 / 10 + 2`
 - `10 % 3`
+- `17 / 5`
+- `17.0 / 5`
+- `!!!false`
+- `true || false && !false`
 
 ## What type are each of the following values?
 
