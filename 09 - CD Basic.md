@@ -79,3 +79,15 @@ int[] foo = {20, 2, 5, 1, 10, 3, 9};
 int[] bar = {0, 9, 32, 59, 2, 5, 8};
 ```
 
+## Arrays "all-in-one" question
+
+Assuming `a` and `b` are integer values and `a <= b`, a random value between `a` and `b` (inclusive on both sides) is obtained by `(int)random(a, b+1)`.
+
+1. Create an integer array containing 100 random values between 5 and 20 (inclusive on both sides).
+2. Find out the number of 6s in the array. Store the outcome in a variable `countSixes`.
+3. Determine if the array contains ANY 20. Store the outcome in a variable `containsTwenty`.
+4. Determine if the array contains ONLY even numbers. Store the outcome in a variable `onlyEvens`.
+5. Store, in a variable `idx1`, the first index at which a random value stored in integer `key` exists (if at all). If the array doesn't contain any `key`, set `idx1` to -1.
+6. Store, in a variable `idx2`, the first index at which a random value stored in integer `key` exists (if at all). If the array doesn't contain any `key`, set `idx2` to -1.
+7. Determine if the array contains any value more than once. Store the outcome in a variable `hasDuplicates.
+8. (Advanced) Refactor each of the above tasks into a function of its own.
