@@ -2,7 +2,7 @@
 
 ## Consider the following array creation statement and answer the questions that follow.
 
-```java
+```processing
 int[] taxi = {10, 70, 20, 90};
 ```
 
