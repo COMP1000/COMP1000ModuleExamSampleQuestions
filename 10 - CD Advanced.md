@@ -2,7 +2,7 @@
 
 ## Consider the following array and answer the questions that follow,
 
-```java
+```processing
 int[][] mega = {{10,70,20,90}, {30,80}, {10}, {50, 70, 20}};
 ```
 
