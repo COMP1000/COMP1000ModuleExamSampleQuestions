@@ -28,7 +28,7 @@ int double(int x) {
 
 1. `5.0`
 2. `10`
-3. `"a"`
+3. `"b"`
 4. `'b'`
 5. `b`
 6. `"Hello World"`
