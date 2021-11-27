@@ -94,7 +94,6 @@ int foo(int n) {
     }
 
     return n * foo(n - 1);
-
 }
 ```
 
