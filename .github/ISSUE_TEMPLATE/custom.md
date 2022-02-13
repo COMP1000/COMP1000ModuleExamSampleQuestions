@@ -1,6 +1,6 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: Ask a question
+about: Ask a question about any `COMP1000` content here
 title: Question
 labels: ''
 assignees: ''
@@ -15,11 +15,11 @@ assignees: ''
 
 You can use code blocks to describe your code if you want to.
 
-For example: 
+For example:
 
 ```processing
 void setup() {
-  size(1440, 1440);
+  size(1280, 720);
   background(0);
 }
 
