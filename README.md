@@ -4,8 +4,8 @@ https://user-images.githubusercontent.com/66213858/139582656-6c44baa6-2049-4310-
 
 
 Let's try to collaboratively compile some practice questions that can,
-- directly (eg., "what is the value of 17/5"), or, 
-- indirectly (eg., "draw the memory diagram for int[] data = {10, 70, 20, 90}) 
+- directly (eg., "what is the value of `17/5`"), or, 
+- indirectly (eg., "draw the memory diagram for `int[] data = {10, 70, 20, 90}`) 
 
 help you in the module exams.
 
