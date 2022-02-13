@@ -1,6 +1,6 @@
 ---
-name: Ask a question
-about: Ask a question about any COMP1000 content here
+name: Other
+about: Ask a question about any other COMP1000 content here
 title: Question
 labels: ''
 assignees: 'WilliamAtUni'
