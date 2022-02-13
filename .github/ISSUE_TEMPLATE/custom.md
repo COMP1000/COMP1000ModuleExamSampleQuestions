@@ -19,7 +19,6 @@ For example:
 
 ```processing
 void setup() {
-
   size(1440, 1440);
   background(0);
 }
