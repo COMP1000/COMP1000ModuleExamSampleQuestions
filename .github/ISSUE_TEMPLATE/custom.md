@@ -1,9 +1,9 @@
 ---
 name: Ask a question
-about: Ask a question about any `COMP1000` content here
+about: Ask a question about any COMP1000 content here
 title: Question
 labels: ''
-assignees: ''
+assignees: 'WilliamAtUni'
 
 ---
 
