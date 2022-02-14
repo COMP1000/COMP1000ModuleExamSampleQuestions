@@ -9,6 +9,8 @@ Let's try to collaboratively compile some practice questions that can,
 
 help you in the module exams.
 
+---
+
 If you want to discuss a particular question, please follow the following process:
 
 1. Click on "Issues"
