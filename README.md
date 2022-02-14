@@ -11,10 +11,10 @@ help you in the module exams.
 
 ---
 
-If you want to discuss a particular question, please follow the following process:
+If you want to discuss a particular question, please follow the below steps:
 
 1. Click on "Issues"
-2. Click on "New Issues"
+2. Click on "New Issue"
 3. Select your topic
 4. Write your question beneath the heading
     - You may want to use the provided code block if you have any code to share
