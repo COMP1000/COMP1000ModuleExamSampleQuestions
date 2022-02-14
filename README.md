@@ -15,6 +15,7 @@ If you want to discuss a particular question, please follow the following proces
 2. Click on "New Issues"
 3. Select your topic
 4. Write your question beneath the heading
+    - You may want to use the provided code block if you have any code to share
 4. Click on "Submit new issue"
 
 Sample title: "CD Basic: Array reference copy question" at https://github.com/gaurav1780/COMP1000PracticeQuestions/issues/1
