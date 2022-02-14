@@ -1,7 +1,7 @@
 ---
-name: FP Basics
-about: Ask a question FP basics
-title: FP Basics
+name: FP Advanced
+about: Ask a question about FP Advanced
+title: FP Advanced
 labels: ''
 assignees: ''
 

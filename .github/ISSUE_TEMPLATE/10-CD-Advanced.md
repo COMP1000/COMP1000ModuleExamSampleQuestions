@@ -1,7 +1,7 @@
 ---
-name: FP Basics
-about: Ask a question FP basics
-title: FP Basics
+name: CD Advanced
+about: Ask a question about CD Advanced
+title: CD Advanced
 labels: ''
 assignees: ''
 

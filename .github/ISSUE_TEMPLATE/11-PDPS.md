@@ -1,7 +1,7 @@
 ---
-name: FP Basics
-about: Ask a question FP basics
-title: FP Basics
+name: PDPS
+about: Ask a question about PDPS
+title: PDPS
 labels: ''
 assignees: ''
 

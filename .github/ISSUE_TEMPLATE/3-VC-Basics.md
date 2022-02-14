@@ -1,7 +1,7 @@
 ---
-name: FP Basics
-about: Ask a question FP basics
-title: FP Basics
+name: VC Basics
+about: Ask a question about VC Basics
+title: VC Basics
 labels: ''
 assignees: ''
 
