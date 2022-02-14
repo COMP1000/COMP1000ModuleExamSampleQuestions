@@ -13,11 +13,8 @@ If you want to discuss a particular question, please follow the following proces
 
 1. Click on "Issues"
 2. Click on "New Issues"
-3. *IMPORTANT*: Start title with correct module exam heading, such as,
-    - "FP Basic"
-    - "FP Advanced"
-    - "VC Basic"
-    - ....
+3. Select your topic
+4. Write your question beneath the heading
 4. Click on "Submit new issue"
 
 Sample title: "CD Basic: Array reference copy question" at https://github.com/gaurav1780/COMP1000PracticeQuestions/issues/1
