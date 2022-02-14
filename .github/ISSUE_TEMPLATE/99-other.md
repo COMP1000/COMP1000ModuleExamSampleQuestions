@@ -1,7 +1,7 @@
 ---
 name: Other
 about: Ask a question about any other COMP1000 content here
-title: Question
+title: Other question
 labels: ''
 assignees: 'WilliamAtUni'
 
@@ -19,7 +19,7 @@ For example:
 
 ```processing
 void setup() {
-    
+
 }
 
 void draw() {
