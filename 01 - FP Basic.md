@@ -1,6 +1,11 @@
 <h1 align="center"> ✨ FP Basic ✨ </h1>
 
 ## For the following function, determine if it is a:
+- Informed producer
+- Changer producer
+- Changer
+- Producer
+- Informed producer
 
 ```processing
 int double(int x) {
@@ -8,12 +13,6 @@ int double(int x) {
 }
 ```
 > It takes in an integer and returns the double of it.
-
-- Informed producer
-- Changer producer
-- Changer
-- Producer
-- Informed producer
 
 ## What are the types and outcomes of the following expresssions?
  
@@ -29,7 +28,7 @@ int double(int x) {
 
 1. `5.0`
 2. `10`
-3. `"a"`
+3. `"b"`
 4. `'b'`
 5. `b`
 6. `"Hello World"`

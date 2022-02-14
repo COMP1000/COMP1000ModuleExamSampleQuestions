@@ -1,6 +1,6 @@
 ## Question 1. Consider the code given below and answer the following questions:
 
-```java
+```processing
 boolean meFailEnglish = true;
 int warnerBrothers = 4;
 int tom = 0, jerry = 0;

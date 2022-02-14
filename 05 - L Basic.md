@@ -2,7 +2,7 @@
 
 ## Use a loop to print a right half pyramid pattern of size `n`:
 
-*For example, for `n = 5`, the following pyramid is printed.*
+*For example, if `n = 5`, the following pyramid is printed.*
 
 ```java
 #
@@ -14,7 +14,7 @@
 
 ## Given a size, `n`, write a loop to print a right half pyramid with incrementing digits on each line.
 
-*For example, for `n = 4`, the following pyramid is printed.*
+*For example, if `n = 4`, the following pyramid is printed.*
 
 ```java
 1
@@ -76,10 +76,8 @@ for (int i = 0; i < 200; i+=40) {
 ## What would be the output of the following code?
 
 ```processing
-for (int n = 0; n < 10; n += 1)
-{
-	if (n % 2 == 0)
-	{
+for (int n = 0; n < 10; n += 1) {
+	if (n % 2 == 0) {
 		print(n * n);
 	}
 	println(n + 3);

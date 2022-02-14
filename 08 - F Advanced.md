@@ -10,7 +10,7 @@
 
 ## What is the output of the following code?
 
-```java
+```processing
 int foo(int n) {
   int result = n*n;
   println(result);
@@ -94,7 +94,6 @@ int foo(int n) {
     }
 
     return n * foo(n - 1);
-
 }
 ```
 
