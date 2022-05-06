@@ -4,17 +4,22 @@
 /******************************************************************************/
 
 // Generator Config
-final int IMAGE_WIDTH = 450;
-final int IMAGE_HEIGHT = 300;
-
 String imageName = "default";
 String imageFormat = "png";
-boolean saveImage = false;
+boolean saveImage = true;
 
-final int GRID_WIDTH = 200;
-final int GRID_HEIGHT = 200;
-final int N_ROWS = 10;
-final int N_COLUMNS = 10;
+final int GRID_WIDTH = 300;
+final int GRID_HEIGHT = 300;
+
+final int IMAGE_WIDTH = GRID_WIDTH + 200;
+final int IMAGE_HEIGHT = GRID_HEIGHT + 200;
+
+
+final int N_ROWS = 20;
+final int N_COLUMNS = 20;
+final float CELL_X_GAP = GRID_WIDTH*1.0/N_COLUMNS;
+final float CELL_Y_GAP = GRID_HEIGHT*1.0/N_ROWS;
+
 final float PIXEL_HEIGHT =(float)GRID_HEIGHT/N_ROWS;
 final float PIXEL_WIDTH = (float)GRID_WIDTH/N_COLUMNS;
 final float MARGIN_X = (IMAGE_WIDTH - GRID_WIDTH) / 2;
@@ -52,18 +57,39 @@ void setup() {
 }
 
 void drawGrid() {
-  stroke(200);
-  strokeWeight(1);
 
   for (int row=0; row <= N_ROWS; row++) {
     float y = TOP_Y + row * PIXEL_HEIGHT;
-    for (int column=0; column <= N_COLUMNS; column++) {
-      float x = LEFT_X + column * PIXEL_WIDTH;
-      line(LEFT_X, y, RIGHT_X, y);
-      line(x, TOP_Y, x, BOTTOM_Y);
+    stroke(200);
+    strokeWeight(1);
+    line(LEFT_X, y, RIGHT_X, y);
+    if (row%3 == 1 && row < N_ROWS) {
+      fill(0);
+      textAlign(RIGHT, CENTER);
+      textSize(12);
+      text((int)(row*CELL_Y_GAP), LEFT_X - 5, y);
+      fill(255, 0, 0);
+      noStroke();
+      circle(LEFT_X, y, 5);
     }
   }
-  
+
+  for (int column=0; column <= N_COLUMNS; column++) {
+    float x = LEFT_X + column * PIXEL_WIDTH;
+    stroke(200);
+    strokeWeight(1);
+    line(x, TOP_Y, x, BOTTOM_Y);
+    if (column%3 == 1 && column < N_COLUMNS) {
+      fill(0);
+      textAlign(CENTER, BOTTOM);
+      textSize(12);
+      text((int)(column*CELL_X_GAP), x, TOP_Y - 5);
+      fill(255, 0, 0);
+      noStroke();
+      circle(x, TOP_Y, 5);
+    }
+  }
+
   drawLabel();
 }
 
